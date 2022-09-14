@@ -1,8 +1,6 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 with @apply UnoCSS not built properly in build & preview mode
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
-
-## Setup
+## Reproduction
 
 Make sure to install the dependencies:
 
@@ -17,17 +15,16 @@ npm install
 pnpm install --shamefully-hoist
 ```
 
-## Development Server
+## Run the Dev Mode
 
 Start the development server on http://localhost:3000
+it was perfectly fine on dev mode
 
 ```bash
 npm run dev
 ```
 
-## Production
-
-Build the application for production:
+## UnoCSS not built properly in Build Mode & Preview
 
 ```bash
 npm run build
@@ -39,4 +36,5 @@ Locally preview production build:
 npm run preview
 ```
 
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+you can try with stackblitz :
+[Stackblitz Repro](https://stackblitz.com/github/chrisnaadhi/apply-uno-repro)
